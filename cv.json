@@ -1,24 +1,24 @@
 {
   "basics": {
     "name": "Luis Gadiel Mondragón Sanchez",
-    "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
+    "label": "Information and Communications Technology Engineer",
     "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
-    "url": "https://midu.dev",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "email": "gadyelm15@gmail.com",
+    "phone": "+52 2481490875",
+    "url": "https://gadielmondragon.com",
+    "summary": "IT Engineer with a strong track record in problem-solving and practical solution implementation. Skilled in designing and implementing innovative solutions. Passionate about driving innovation and staying up-to-date with industry trends. Seeking opportunities to contribute experience in systems development and problem-solving.",
     "location": {
       "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
-      "countryCode": "ES",
-      "region": "España"
+      "postalCode": "74000",
+      "city": "Puebla",
+      "countryCode": "MX",
+      "region": "México"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
+        "username": "luis-gadiel-mondragon-sanchez-607656186",
+        "url": "https://www.linkedin.com/in/luis-gadiel-mondragon-sanchez-607656186/"
       },
       {
         "network": "X",
@@ -27,86 +27,63 @@
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "GadyelM15",
+        "url": "https://github.com/GadyelM15"
       }
     ]
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
+      "name": "Rassini Brakes, Michigan, USA",
+      "position": "Sr Software Engineer",
+      "url": "https://www.rassini.com/",
+      "startDate": "2024-03-01",
       "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+      "summary": "- Database administration, software architecture, development and implementation of information systems for Rassini Brakes located in Flint, Michigan, USA. - REST APIs. - React and JavaScript. - OpenEdge 4GL. - ERP QAD data retrieval and managment. - Project management.",
       "highlights": [
-        "Started the company"
+        "Colaborador del mes"
       ]
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+      "name": "Rassini Frenos SA de CV, Puebla, México",
+      "position": "Jr Software Engineer",
+      "url": "https://www.rassini.com/",
+      "startDate": "2022-10-04",
+      "endDate": "2024-03-01",
+      "summary": "- Analysis, development, implementation, and training of software and systems for controlling parts processed in the machining, foundry, painting, and release processes, including downtimes, measurement parameters of parts produced, and release requests. - Digitalization of monetary bonuses according to the effectiveness of production for line operators. - Standardization of inputs, stay at the plant, and outputs of raw material trucks. Also, the creation of reports and tracking dashboards for the mentioned sub-processes. - Debugging, development, and monitoring of financial solutions such as reports, automatic uploads (CIM Interfaces), and browsers with the corresponding managers. - Creation and implementation of submodules for supplier payments in the Rassini Suppliers Portal. - Tickets resolutions of software issues, incidents, and troubleshooting to QAD and Rassini information systems. - React, JavaScript, Node JS, REST API, SQL, OpenEdge 4gl, Progress DataBases, and QAD management.",
       "highlights": [
-        "Started the company"
+        "Colaborador del mes"
       ]
     },
     {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+      "name": "Audi México, San José Chiapa, México",
+      "position": "Software Developer Intern",
+      "url": "https://www.audi.com.mx/",
+      "startDate": "2022-04-01",
+      "endDate": "2022-10-01",
+      "summary": "- Creation and implementation of a web application to manage follow-up request analysis of Audi Q5 vehicles in production processes (Oracle Apex). - Management and administration of Oracle Apex, PL/SQL databases. - Elaboration and automation of spreadsheets at direction level with VBA. - Administration and management of data visualization software such as Tableau and Power BI.",
       "highlights": [
-        "Started the company"
+        "Implementation of software solutions to optimize production processes and data management"
       ]
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
   "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
+    "institution": "Instituto Tecnológico del Altiplano de Tlaxcala",
+    "url": "http://altiplano.tecnm.mx/",
+    "area": "IT",
     "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
+    "startDate": "2018-01-01",
+    "endDate": "2023-01-01",
+    "score": "3.7",
     "courses": [
-      "DB1101 - Basic SQL"
+      "Professional license: 13340342"
     ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
   }],
   "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
+    "name": "Advanced React",
+    "date": "2024-11-07",
+    "issuer": "Meta",
+    "url": "https://www.coursera.org/account/accomplishments/verify/VY32S3VTNJT6"
   }],
   "skills": [
     {

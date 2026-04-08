@@ -21,11 +21,6 @@
         "url": "https://www.linkedin.com/in/luis-gadiel-mondragon-sanchez-607656186/"
       },
       {
-        "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
-      },
-      {
         "network": "GitHub",
         "username": "GadyelM15",
         "url": "https://github.com/GadyelM15"
@@ -41,7 +36,7 @@
       "endDate": null,
       "summary": "- Database administration, software architecture, development and implementation of information systems for Rassini Brakes located in Flint, Michigan, USA. - REST APIs. - React and JavaScript. - OpenEdge 4GL. - ERP QAD data retrieval and managment. - Project management.",
       "highlights": [
-        "Colaborador del mes"
+        ""
       ]
     },
     {
@@ -70,7 +65,7 @@
   "education": [{
     "institution": "Instituto Tecnológico del Altiplano de Tlaxcala",
     "url": "http://altiplano.tecnm.mx/",
-    "area": "IT",
+    "area": "Information and Communications Technology Engineering",
     "studyType": "Bachelor",
     "startDate": "2018-01-01",
     "endDate": "2023-01-01",
@@ -79,12 +74,20 @@
       "Professional license: 13340342"
     ]
   }],
-  "certificates": [{
-    "name": "Advanced React",
-    "date": "2024-11-07",
-    "issuer": "Meta",
-    "url": "https://www.coursera.org/account/accomplishments/verify/VY32S3VTNJT6"
-  }],
+  "certificates": [
+    {
+      "name": "Advanced React",
+      "date": "2025-11-07",
+      "issuer": "Meta",
+      "url": "https://www.coursera.org/account/accomplishments/verify/VY32S3VTNJT6"
+    },
+    {
+      "name": "Microsoft Certified Network Associate Security",
+      "date": "2021-12-01",
+      "issuer": "Microsoft",
+      "url": "https://grow.google"
+    }
+  ], 
   "skills": [
     {
       "name": "HTML",
@@ -101,17 +104,17 @@
       ]
     },
     {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-      ]
-    },
-    {
       "name": "Tailwind",
       "level": "Avanzado",
       "keywords": [
         "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
       ]
     },
     {
@@ -122,6 +125,13 @@
       ]
     },
     {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
       "name": "Node",
       "level": "Avanzado",
       "keywords": [
@@ -129,10 +139,24 @@
       ]
     },
     {
-      "name": "MySQL",
+      "name": "SQL",
       "level": "Avanzado",
       "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        "Bases de Datos", "Almacenamiento de Datos", "Consultas"
+      ]
+    },
+    {
+      "name": "Progress OpenEdge 4GL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "Progress", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "QAD ERP",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "Progress", "Almacenamiento de Datos", "Backend"
       ]
     },
     {
@@ -148,20 +172,6 @@
       "keywords": [
         "Control de Versiones", "Colaboración", "Código Fuente", "Git"
       ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-      ]
     }
   ],
   "languages": [
@@ -171,82 +181,31 @@
     },
     {
       "language": "English",
-      "fluency": "Advanced"
+      "fluency": "Professional working proficiency"
     }
   ],
   "interests": [{
     "name": "Wildlife",
     "keywords": [
-      "Ferrets",
-      "Unicorns"
+      "Drums",
+      "Traveling"
     ]
   }],
   "references": [{
-    "name": "Jane Doe",
+    "name": "Mitchell Lowe",
     "reference": "Reference…"
   }],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "Italian Coffee Redesign",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "description": "A project to renew the web page of Italian coffee including a new design focused on the menu section for better user experience and new features.",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "Better user experience",
+        "Modern design"
       ],
-      "url": "https://mars.codes"
-    },
-    {
-      "name": "AdventJS",
-      "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-      "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
-      ],
-      "url": "https://adventjs.dev"
-    },
-    {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
-      ],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
-      ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
-      ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
+      "url": "https://github.com/GadyelM15",
+      "github": "https://github.com/GadyelM15"
     }
   ]
 }

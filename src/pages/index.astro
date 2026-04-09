@@ -32,29 +32,6 @@ const { name, label } = basics
   <KeyboardManager />
 </Layout>
 
-<script>
-  import html2pdf from "html2pdf.js"
-
-  const exportBtn = document.getElementById("export-pdf-btn")
-  
-  exportBtn?.addEventListener("click", () => {
-    const element = document.getElementById("pdf-content")
-    
-    if (element) {
-      const options = {
-        margin: 10,
-        filename: "portfolio.pdf",
-        image: { type: "png" as const, quality: 0.98 },
-        html2canvas: { scale: 2 },
-        jsPDF: { orientation: "portrait" as const, unit: "mm" as const, format: "a4" as const },
-        pagebreak: { mode: ["avoid-all"] as const },
-      }
-      
-      html2pdf().set(options).from(element).save()
-    }
-  })
-</script>
-
 <style>
   main {
     padding: 4rem;

@@ -15,8 +15,8 @@ import Certificates from "@/components/sections/Certificates.astro"
 const { name, label } = basics
 ---
 
-<Layout title={`Portafolio de ${name} - ${label}`}>
-  <main>
+<Layout title={`Portfolio - ${name} - ${label}`}>
+  <main id="pdf-content">
     <Hero />
     <About />
     <Experience />
@@ -26,6 +26,8 @@ const { name, label } = basics
     <Languages />
     <Skills />
   </main>
+
+  <!-- <button id="export-pdf-btn" class="export-btn">Export to PDF</button> -->
 
   <KeyboardManager />
 </Layout>
@@ -37,9 +39,35 @@ const { name, label } = basics
     width: 100%;
   }
 
+  .export-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+  }
+
+  .export-btn:hover {
+    background-color: #555;
+  }
+
   @media (width <= 700px) {
     main {
       padding: 2rem;
+    }
+
+    .export-btn {
+      bottom: 1rem;
+      right: 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 0.875rem;
     }
   }
 </style>

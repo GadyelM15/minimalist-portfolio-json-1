@@ -9,7 +9,8 @@ import { projects } from "@cv"
   <ul>
     {
       projects.map(
-        ({ url, description, highlights, name, isActive, github }) => {
+        ({ url, description, name, isActive, github }) => {
+          // highlights,
           return (
             <li>
               <article>
@@ -32,11 +33,11 @@ import { projects } from "@cv"
                   </h3>
                   <p>{description}</p>
                 </header>
-                <footer>
+                {/* <footer>
                   {highlights.map((highlight) => {
                     return <span>{highlight}</span>
                   })}
-                </footer>
+                </footer> */}
               </article>
             </li>
           )

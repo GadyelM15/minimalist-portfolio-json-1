@@ -15,8 +15,8 @@ import Certificates from "@/components/sections/Certificates.astro"
 const { name, label } = basics
 ---
 
-<Layout title={`Portafolio de ${name} - ${label}`}>
-  <main>
+<Layout title={`Portfolio - ${name} - ${label}`}>
+  <main id="pdf-content">
     <Hero />
     <About />
     <Experience />
@@ -27,8 +27,33 @@ const { name, label } = basics
     <Skills />
   </main>
 
+  <!-- <button id="export-pdf-btn" class="export-btn">Export to PDF</button> -->
+
   <KeyboardManager />
 </Layout>
+
+<script>
+  import html2pdf from "html2pdf.js"
+
+  const exportBtn = document.getElementById("export-pdf-btn")
+  
+  exportBtn?.addEventListener("click", () => {
+    const element = document.getElementById("pdf-content")
+    
+    if (element) {
+      const options = {
+        margin: 10,
+        filename: "portfolio.pdf",
+        image: { type: "png" as const, quality: 0.98 },
+        html2canvas: { scale: 2 },
+        jsPDF: { orientation: "portrait" as const, unit: "mm" as const, format: "a4" as const },
+        pagebreak: { mode: ["avoid-all"] as const },
+      }
+      
+      html2pdf().set(options).from(element).save()
+    }
+  })
+</script>
 
 <style>
   main {
@@ -37,9 +62,35 @@ const { name, label } = basics
     width: 100%;
   }
 
+  .export-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+  }
+
+  .export-btn:hover {
+    background-color: #555;
+  }
+
   @media (width <= 700px) {
     main {
       padding: 2rem;
+    }
+
+    .export-btn {
+      bottom: 1rem;
+      right: 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 0.875rem;
     }
   }
 </style>

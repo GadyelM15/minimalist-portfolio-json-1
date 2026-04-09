@@ -10,7 +10,8 @@ import { languages } from "@cv"
       languages.map(({ language, fluency }) => {
         return (
           <li>
-            <span>{language}</span> - <span>{fluency}</span>
+            {/* making language and fluency more visually distinct */}
+            <span class="language">{language}</span> - <span class="fluency">{fluency}</span>
           </li>
         )
       })
@@ -36,4 +37,12 @@ import { languages } from "@cv"
     gap: 4px;
     padding: 0.2rem 0.6rem;
   }
+  .language {
+    /* font-weight: 600; */
+  }
+  .fluency {
+    font-style: italic;
+    color: #555;
+  }
+  
 </style>

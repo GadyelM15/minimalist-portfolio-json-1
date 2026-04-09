@@ -6,7 +6,7 @@
     "email": "gadyelm15@gmail.com",
     "phone": "+52 2481490875",
     "url": "https://gadielmondragon.com",
-    "summary": "IT Engineer with a strong track record in problem-solving and practical solution implementation. Skilled in designing and implementing innovative solutions. Passionate about driving innovation and staying up-to-date with industry trends. Seeking opportunities to contribute experience in systems development and problem-solving.",
+    "summary": "5 years of experience as an IT Engineer. Most recently a Senior Software Engineer at Rassini. Being in charge of the software architecture, design, development and implementation of information systems for Rassini Brakes located in Flint, Michigan, USA, has allowed me to gain valuable experience in project management, people management, leadership and software development. Skilled in problem-solving and practical solution implementation. I enjoy learning new technical things of all sorts. React, JavaScript, Kendo UI, Node JS, REST API, SQL, OpenEdge 4gl, Progress DataBases, and QAD-ERP management are my core software languages/skills.",
     "location": {
       "address": "",
       "postalCode": "74000",
@@ -30,35 +30,39 @@
   "work": [
     {
       "name": "Rassini Brakes, Michigan, USA",
-      "position": "Sr Software Engineer",
+      "position": "Senior Software Engineer",
       "url": "https://www.rassini.com/",
       "startDate": "2024-03-01",
       "endDate": null,
-      "summary": "- Database administration, software architecture, development and implementation of information systems for Rassini Brakes located in Flint, Michigan, USA. - REST APIs. - React and JavaScript. - OpenEdge 4GL. - ERP QAD data retrieval and managment. - Project management.",
+      "summary": "Developed and implemented the IMS (Inventory Management System) for Rassini Brakes in Flint, Michigan, USA, which increased the efficiency of inventory management, deleted manual and repetitive proceses by 90%, real-time data monitoring using control panels, web responsive design using React, Kendo UI, Apache Echarts, Node JS and Progress Openedge 4GL, REST API and CIM loads to report directly to QAD-ERP in line production, downtimes, scrap, shippers control and inventory management. Constantly collaborating with cross-functional teams to ensure the software solutions meet the needs of the business and end-users. Additionally, I have been responsible for mentoring junior developers and leading the software development team in the absence of a software manager.",
       "highlights": [
-        ""
+        "Employee of the month",
+        "Leadership development",
+        "Milestone Achievements"
       ]
     },
     {
-      "name": "Rassini Frenos SA de CV, Puebla, México",
+      "name": "Rassini Frenos, Puebla, MX",
       "position": "Jr Software Engineer",
       "url": "https://www.rassini.com/",
       "startDate": "2022-10-04",
       "endDate": "2024-03-01",
-      "summary": "- Analysis, development, implementation, and training of software and systems for controlling parts processed in the machining, foundry, painting, and release processes, including downtimes, measurement parameters of parts produced, and release requests. - Digitalization of monetary bonuses according to the effectiveness of production for line operators. - Standardization of inputs, stay at the plant, and outputs of raw material trucks. Also, the creation of reports and tracking dashboards for the mentioned sub-processes. - Debugging, development, and monitoring of financial solutions such as reports, automatic uploads (CIM Interfaces), and browsers with the corresponding managers. - Creation and implementation of submodules for supplier payments in the Rassini Suppliers Portal. - Tickets resolutions of software issues, incidents, and troubleshooting to QAD and Rassini information systems. - React, JavaScript, Node JS, REST API, SQL, OpenEdge 4gl, Progress DataBases, and QAD management.",
+      "summary": "Debugging, development, and monitoring of financial solutions such as reports, automatic uploads (CIM Interfaces), and browsers with the corresponding areas. Creation and implementation of modules and submodules for supplier payments in Rassini's Suppliers Portal. Tickets resolutions of software issues, incidents, and troubleshooting to QAD and Rassini information systems. Analysis, development, implementation, and training of software and systems for controlling foundry, machining and painting processes using React, JavaScript, REST API, OpenEdge 4GL, Progress Databases and QAD management.",
       "highlights": [
-        "Colaborador del mes"
+        "Code Quality",
+        "Product Usability"
       ]
     },
     {
-      "name": "Audi México, San José Chiapa, México",
+      "name": "Audi México, San José Chiapa, MX",
       "position": "Software Developer Intern",
       "url": "https://www.audi.com.mx/",
       "startDate": "2022-04-01",
       "endDate": "2022-10-01",
-      "summary": "- Creation and implementation of a web application to manage follow-up request analysis of Audi Q5 vehicles in production processes (Oracle Apex). - Management and administration of Oracle Apex, PL/SQL databases. - Elaboration and automation of spreadsheets at direction level with VBA. - Administration and management of data visualization software such as Tableau and Power BI.",
+      "summary": "Creation and implementation of a web application to manage follow-up request analysis of Audi Q5 vehicles in production processes USING Oracle Apex and PL/SQL, system that allowed me to develop administration dashboards using Tableau with direct connection to the database. System that generated a 50% reduction in the time spent on follow-up request analysis and improved the efficiency of the process. Additionally, I was responsible for providing training and support to end-users of the system.",
       "highlights": [
-        "Implementation of software solutions to optimize production processes and data management"
+        "Internship completion with high performance",
+        "Process improvement"
       ]
     }
   ],
@@ -67,7 +71,7 @@
     "url": "http://altiplano.tecnm.mx/",
     "area": "Information and Communications Technology Engineering",
     "studyType": "Bachelor",
-    "startDate": "2018-01-01",
+    "startDate": "2018-07-01",
     "endDate": "2023-01-01",
     "score": "3.7",
     "courses": [
@@ -204,7 +208,7 @@
         "Better user experience",
         "Modern design"
       ],
-      "url": "https://github.com/GadyelM15",
+      "url": "https://italiancoffee-umber.vercel.app/#menu",
       "github": "https://github.com/GadyelM15"
     }
   ]

@@ -18,7 +18,6 @@ import Kotlin from "@/icons/kotlin.astro"
 import Flutter from "@/icons/flutter.astro"
 import Progress from "@/icons/progress.astro"
 import OpenEdge4GL from "@/icons/OpenEdge4GL.astro"
-import QAD from "@/icons/qad.astro"
 import TortoiseGit from "@/icons/tortoise.astro"
 
 const SKILLS_ICONS: Record<string, any> = {
@@ -39,7 +38,6 @@ const SKILLS_ICONS: Record<string, any> = {
   Flutter,
   Progress,
   OpenEdge4GL,
-  QAD,
   TortoiseGit
 }
 
@@ -91,7 +89,7 @@ const groupedSkills = Object.entries(SKILL_CATEGORIES).map(([category, skillName
     font-size: 0.95rem;
     font-weight: 600;
     color: #333;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     /* making it italic */
     font-style: italic;
     letter-spacing: 0.05em;

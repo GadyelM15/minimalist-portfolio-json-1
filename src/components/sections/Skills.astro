@@ -6,7 +6,7 @@ import JavaScript from "@/icons/javascript.astro"
 import TypeScript from "@/icons/type.astro"
 import React from "@/icons/react.astro"
 import Node from "@/icons/node.astro"
-import MySQL from "@/icons/sql.astro"
+import SQL from "@/icons/sql.astro"
 import Git from "@/icons/git.astro"
 import GitHub from "@/icons/GitHub.astro"
 import Tailwind from "@/icons/tailwind.astro"
@@ -16,6 +16,10 @@ import Swift from "@/icons/swift.astro"
 import SwiftUI from "@/icons/swiftui.astro"
 import Kotlin from "@/icons/kotlin.astro"
 import Flutter from "@/icons/flutter.astro"
+import Progress from "@/icons/progress.astro"
+import OpenEdge4GL from "@/icons/OpenEdge4GL.astro"
+import QAD from "@/icons/qad.astro"
+import TortoiseGit from "@/icons/tortoise.astro"
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
@@ -24,7 +28,7 @@ const SKILLS_ICONS: Record<string, any> = {
   TypeScript,
   React,
   Node,
-  MySQL,
+  SQL,
   Git,
   GitHub,
   Next,
@@ -33,29 +37,68 @@ const SKILLS_ICONS: Record<string, any> = {
   SwiftUI,
   Kotlin,
   Flutter,
+  Progress,
+  OpenEdge4GL,
+  QAD,
+  TortoiseGit
 }
+
+const SKILL_CATEGORIES: Record<string, string[]> = {
+  Frontend: ["HTML", "CSS", "JavaScript", "Tailwind", "TypeScript", "React", "Astro"],
+  Backend: ["Node", "SQL", "OpenEdge4GL"],
+  "ERP/Databases": ["QAD", "Progress", "PostgreSQL"],
+  Tools: ["Git", "GitHub", "TortoiseGit"],
+}
+
+// Group skills by category
+const groupedSkills = Object.entries(SKILL_CATEGORIES).map(([category, skillNames]) => {
+  const categorySkills = skills.filter(skill => skillNames.includes(skill.name))
+  return { category, skills: categorySkills }
+}).filter(group => group.skills.length > 0)
 ---
 
 <Section title="Skills">
-  <ul>
-    {
-      skills.map(({ name }) => {
-        const iconName = name === "Next.js" ? "Next" : name
-        const Icon = SKILLS_ICONS[iconName]
+  {
+    groupedSkills.map(({ category, skills: categorySkills }) => (
+      <div class="skill-category">
+        <h3>{category}</h3>
+        <ul>
+          {
+            categorySkills.map(({ name }) => {
+              const iconName = name === "Next.js" ? "Next" : name
+              const Icon = SKILLS_ICONS[iconName]
 
-        return (
-          <li>
-            {Icon && <Icon />} <span>{name}</span>
-          </li>
-        )
-      })
-    }
-  </ul>
+              return (
+                <li>
+                  {Icon && <Icon />} <span>{name}</span>
+                </li>
+              )
+            })
+          }
+        </ul>
+      </div>
+    ))
+  }
 </Section>
 
 <style>
+  .skill-category {
+    margin-bottom: 1.5rem;
+  }
+
+  .skill-category h3 {
+    margin: 0 0 0.75rem 0;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+    /* making it italic */
+    font-style: italic;
+    letter-spacing: 0.05em;
+  }
+
   ul {
-    display: inline-flex;
+    display: flex;
     gap: 8px;
     flex-wrap: wrap;
   }

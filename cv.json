@@ -6,7 +6,7 @@
     "email": "gadyelm15@gmail.com",
     "phone": "+52 2481490875",
     "url": "https://gadielmondragon.com",
-    "summary": "5 years of experience as an IT Engineer. Most recently a Senior Software Engineer at Rassini. Being in charge of the software architecture, design, development and implementation of information systems for Rassini Brakes located in Flint, Michigan, USA, has allowed me to gain valuable experience in project management, people management, leadership and software development. Skilled in problem-solving and practical solution implementation. I enjoy learning new technical things of all sorts. React, JavaScript, Kendo UI, Node JS, REST API, SQL, OpenEdge 4gl, Progress DataBases, and QAD-ERP management are my core software languages/skills.",
+    "summary": "IT Engineer with 5 years of experience, currently serving as Senior Software Engineer for Rassini Brakes in Flint, Michigan. Being in charge of the software architecture, design, development and implementation of information systems, has allowed me to gain valuable experience in project and people management, leadership and software development. Recognized for strong problem-solving skills and the ability to translate complex challenges into practical, scalable solutions. I am passionate about continuous learning and applying emerging technologies to drive innovation. My core technical expertise includes React, JavaScript, Kendo UI, Node.js, REST APIs, SQL, OpenEdge 4GL, Progress Databases, and QAD-ERP management.",
     "location": {
       "address": "",
       "postalCode": "74000",
@@ -34,16 +34,16 @@
       "url": "https://www.rassini.com/",
       "startDate": "2024-03-01",
       "endDate": null,
-      "summary": "Developed and implemented the IMS (Inventory Management System) for Rassini Brakes in Flint, Michigan, USA, which increased the efficiency of inventory management, deleted manual and repetitive proceses by 90%, real-time data monitoring using control panels, web responsive design using React, Kendo UI, Apache Echarts, Node JS and Progress Openedge 4GL, REST API and CIM loads to report directly to QAD-ERP in line production, downtimes, scrap, shippers control and inventory management. Constantly collaborating with cross-functional teams to ensure the software solutions meet the needs of the business and end-users. Additionally, I have been responsible for mentoring junior developers and leading the software development team in the absence of a software manager.",
+      "summary": "Developed and implemented IMS System (Inventory Management System) for Rassini Brakes in Flint, Michigan, USA, which increased the efficiency of inventory management by the implementation RFID as the new standard process that achieved over 99% accuracy and reduced stock-taking times by up to 85%. Implementation of real-time data monitoring using control panels. Responsive web design using React, Kendo UI, Apache Echarts, Node JS and Progress OpenEdge 4GL, REST API and CIM loads to QAD-ERP to report in line production, downtimes, scrap, shippers control and the inventory management that eliminated 90% of manual and repetitive processes. Collaborated with cross-functional teams to align solutions with business and user needs. Additionally, I have been responsible for mentoring junior developers and leading the software development team in the absence of a software manager.",
       "highlights": [
-        "Employee of the month",
-        "Leadership development",
-        "Milestone Achievements"
+        "Employee of the month (2026)",
+        "Led leadership development initiatives",
+        "Delivered milestone achievements in inventory management system"
       ]
     },
     {
       "name": "Rassini Frenos, Puebla, MX",
-      "position": "Jr Software Engineer",
+      "position": "Junior Software Engineer",
       "url": "https://www.rassini.com/",
       "startDate": "2022-10-04",
       "endDate": "2024-03-01",
@@ -59,7 +59,7 @@
       "url": "https://www.audi.com.mx/",
       "startDate": "2022-04-01",
       "endDate": "2022-10-01",
-      "summary": "Creation and implementation of a web application to manage follow-up request analysis of Audi Q5 vehicles in production processes USING Oracle Apex and PL/SQL, system that allowed me to develop administration dashboards using Tableau with direct connection to the database. System that generated a 50% reduction in the time spent on follow-up request analysis and improved the efficiency of the process. Additionally, I was responsible for providing training and support to end-users of the system.",
+      "summary": "Creation and implementation of a web application to manage follow-up request analysis of Audi Q5 vehicles in production processes using Oracle Apex and PL/SQL, system that allowed me to develop administration dashboards using Tableau with direct connection to the database. Achieved a 50% reduction in follow-up request analysis time and improved the efficiency of the process. Additionally, I was responsible for providing training and support to end-users of the system.",
       "highlights": [
         "Internship completion with high performance",
         "Process improvement"
@@ -84,12 +84,6 @@
       "date": "2025-11-07",
       "issuer": "Meta",
       "url": "https://www.coursera.org/account/accomplishments/verify/VY32S3VTNJT6"
-    },
-    {
-      "name": "Microsoft Certified Network Associate Security",
-      "date": "2021-12-01",
-      "issuer": "Microsoft",
-      "url": "https://grow.google"
     }
   ], 
   "skills": [
@@ -150,14 +144,21 @@
       ]
     },
     {
-      "name": "Progress OpenEdge 4GL",
+      "name": "OpenEdge4GL",
       "level": "Avanzado",
       "keywords": [
         "Bases de Datos", "Progress", "Almacenamiento de Datos", "Backend"
       ]
     },
     {
-      "name": "QAD ERP",
+      "name": "Progress",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "Progress", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "QAD",
       "level": "Avanzado",
       "keywords": [
         "Bases de Datos", "Progress", "Almacenamiento de Datos", "Backend"
@@ -172,6 +173,13 @@
     },
     {
       "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "TortoiseGit",
       "level": "Avanzado",
       "keywords": [
         "Control de Versiones", "Colaboración", "Código Fuente", "Git"

@@ -24,6 +24,11 @@
         "network": "GitHub",
         "username": "GadyelM15",
         "url": "https://github.com/GadyelM15"
+      },
+      {
+        "network": "X",
+        "username": "GadyelM15",
+        "url": "https://minimalist-portfolio-json-1.vercel.app"
       }
     ]
   },
@@ -209,14 +214,14 @@
   }],
   "projects": [
     {
-      "name": "Italian Coffee Redesign",
+      "name": "Mana Coffee Web Page",
       "isActive": true,
-      "description": "A project to renew the web page of Italian coffee including a new design focused on the menu section for better user experience and new features.",
+      "description": "A project to renew the web page of Mana Coffee including a new design focused on the menu section for better user experience and new features.",
       "highlights": [
         "Better user experience",
         "Modern design"
       ],
-      "url": "https://italiancoffee-umber.vercel.app/#menu",
+      "url": "https://manacoffee.vercel.app/",
       "github": "https://github.com/GadyelM15"
     }
   ]

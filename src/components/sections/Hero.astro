@@ -9,7 +9,7 @@ import GitHub from "@/icons/GitHub.astro"
 import WorldMap from "@/icons/WorldMap.astro"
 import type { SocialIcon } from "@/types"
 
-const { name, label, image, location, profiles, phone, email } = basics
+const { name, label, image, location, profiles, phone, email, url } = basics
 const { city, region } = location
 
 const SOCIAL_ICONS: SocialIcon = {
@@ -21,7 +21,14 @@ const SOCIAL_ICONS: SocialIcon = {
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
 const linkedUrl = linkedInfo?.url
 
-const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
+// For print, we want to show the email, phone, LinkedIn URL, and personal website URL (if available) specifing the name for each one, separated by a bullet point. We will filter out any falsy values and join the remaining ones with a bullet point.
+
+const printInfo = [
+  email && `Email: ${email}`,
+  phone && `Phone: ${phone}`,
+  // linkedUrl && `LinkedIn: ${linkedUrl}`,
+  url && `Website: ${url}`,
+].filter(Boolean).join(" • ")
 ---
 
 <Section>

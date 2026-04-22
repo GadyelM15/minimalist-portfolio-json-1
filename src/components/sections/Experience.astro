@@ -1,58 +1,119 @@
 ---
 import Section from "../Section.astro"
-
 import { work } from "@cv"
+
+type WorkEntry = (typeof work)[number]
+interface CompanyGroup {
+  name: string
+  url: string
+  positions: WorkEntry[]
+}
+
+const companies: CompanyGroup[] = []
+work.forEach((job) => {
+  const existing = companies.find((c) => c.name === job.name)
+  if (existing) {
+    existing.positions.push(job)
+  } else {
+    companies.push({ name: job.name, url: job.url, positions: [job] })
+  }
+})
+
+const formatDate = (dateStr: string | null): string => {
+  if (!dateStr) return "Present"
+  const date = new Date(dateStr)
+  return date.toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone: "UTC" })
+}
 ---
 
 <Section title="Work Experience">
   <ul>
     {
-      work.map(
-        ({ name, startDate, endDate, position, summary, highlights, url }) => {
-          const startYear = new Date(startDate).getFullYear()
-          const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Present"
+      companies.map(({ name, url, positions }) => {
+        const isGrouped = positions.length > 1
 
+        if (isGrouped) {
           return (
             <li>
               <article>
-                <header>
-                  <div>
-                    <h3>
-                      <a href={url} title={`View ${name}`} target="_blank">
-                        {name}
-                      </a>
-                    </h3>
-                    <h4>{position}</h4>
-                  </div>
-
-                  <div>
-                    <time 
-                      datetime={startDate}
-                      data-title={startDate}>
-                        {startYear}
-                    </time>
-                    {" - "}
-                    <time 
-                      datetime={endDate}
-                      data-title={endDate}>
-                        {endYear}
-                    </time>
-                  </div>
+                <header class="company-only">
+                  <h3>
+                    <a href={url} title={`View ${name}`} target="_blank">
+                      {name}
+                    </a>
+                  </h3>
                 </header>
-
-                <footer>
-                  <p>{summary}</p>
-                  {highlights.map((highlight) => {
-                    return <span>{highlight}</span>
-                  })}
-                </footer>
-
+                <ul class="positions">
+                  {
+                    positions.map(({ position, location, jobType, startDate, endDate, summary, highlights }) => {
+                      return (
+                        <li>
+                          <div class="position-header">
+                            <div>
+                              <h4>{position}</h4>
+                              {(location || jobType) && (
+                                <div class="meta">
+                                  {location && <span class="location">{location}</span>}
+                                  {location && jobType && <span class="separator">·</span>}
+                                  {jobType && <span class="job-type">{jobType}</span>}
+                                </div>
+                              )}
+                            </div>
+                            <div>
+                              <time datetime={startDate} data-title={startDate}>{formatDate(startDate)}</time>
+                              {" - "}
+                              <time datetime={endDate ?? undefined} data-title={endDate ?? undefined}>{formatDate(endDate)}</time>
+                            </div>
+                          </div>
+                          <footer>
+                            <p>{summary}</p>
+                            {highlights.map((highlight) => <span>{highlight}</span>)}
+                          </footer>
+                        </li>
+                      )
+                    })
+                  }
+                </ul>
               </article>
             </li>
           )
         }
-      )
+
+        const { position, location, jobType, startDate, endDate, summary, highlights } = positions[0]
+
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  <h3>
+                    <a href={url} title={`View ${name}`} target="_blank">
+                      {name}
+                    </a>
+                  </h3>
+                  {(location || jobType) && (
+                    <div class="meta">
+                      {location && <span class="location">{location}</span>}
+                      {location && jobType && <span class="separator">·</span>}
+                      {jobType && <span class="job-type">{jobType}</span>}
+                    </div>
+                  )}
+                  <h4>{position}</h4>
+                </div>
+                <div>
+                  <time datetime={startDate} data-title={startDate}>{formatDate(startDate)}</time>
+                  {" - "}
+                  <time datetime={endDate ?? undefined} data-title={endDate ?? undefined}>{formatDate(endDate)}</time>
+                </div>
+              </header>
+              <footer>
+                <p>{summary}</p>
+                {highlights.map((highlight) => <span>{highlight}</span>)}
+              </footer>
+            </article>
+          </li>
+        )
+      })
     }
   </ul>
 </Section>
@@ -62,6 +123,42 @@ import { work } from "@cv"
     display: flex;
     flex-direction: column;
     gap: 32px;
+  }
+
+  ul.positions {
+    gap: 20px;
+    margin-top: 8px;
+    padding-left: 14px;
+    border-left: 2px solid #e5e7eb;
+  }
+
+  .company-only {
+    margin-bottom: 4px;
+  }
+
+  .position-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+  }
+
+  .meta {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 2px;
+  }
+
+  .location,
+  .job-type {
+    color: #666;
+    font-size: 0.75rem;
+  }
+
+  .separator {
+    color: #999;
+    font-size: 0.75rem;
   }
 
   article h3 {

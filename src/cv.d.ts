@@ -41,6 +41,8 @@ interface Profiles {
 
 interface Work {
   name: string
+  location?: string
+  jobType?: string
   position: string
   url: string
   startDate: DateStr

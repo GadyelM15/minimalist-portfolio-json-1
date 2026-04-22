@@ -1,8 +1,8 @@
 {
   "basics": {
-    "name": "Luis Gadiel Mondragón Sanchez",
+    "name": "Luis Gadiel Mondragón Sánchez",
     "label": "Information and Communications Technology Engineer",
-    "image": "/me.webp",
+    "image": "/me.png",
     "email": "gadyelm15@gmail.com",
     "phone": "+52 2481490875",
     "url": "https://minimalist-portfolio-json-1.vercel.app",
@@ -34,12 +34,14 @@
   },
   "work": [
     {
-      "name": "Rassini Brakes, Michigan, USA",
+      "name": "Rassini Frenos",
+      "location": "",
+      "jobType": "Hybrid (MI, USA and Puebla, MX)",
       "position": "Senior Software Engineer",
       "url": "https://www.rassini.com/",
       "startDate": "2024-03-01",
       "endDate": null,
-      "summary": "Developed and implemented IMS System (Inventory Management System) for Rassini Brakes in Flint, Michigan, USA, which increased the efficiency of inventory management by the implementation RFID as the new standard process that achieved over 99% accuracy and reduced stock-taking times by up to 85%. Implementation of real-time data monitoring using control panels. Responsive web design using React, Kendo UI, Apache Echarts, Node JS and Progress OpenEdge 4GL, REST API and CIM loads to QAD-ERP to report in line production, downtimes, scrap, shippers control and the inventory management that eliminated 90% of manual and repetitive processes. Collaborated with cross-functional teams to align solutions with business and user needs. Additionally, I have been responsible for mentoring junior developers and leading the software development team in the absence of a software manager.",
+      "summary": "Full support for Rassini Brakes in Flint, Michigan, USA operations (remotely and physically). Developed and implementation of IMS System (Inventory Management System), which increased the efficiency of inventory management by the implementation RFID as the new standard process that achieved over 99% accuracy and reduced stock-taking times by up to 85%. Implementation of real-time data monitoring using control panels. Responsive web design using React, Kendo UI, Apache Echarts, Node JS and Progress OpenEdge 4GL, REST API and CIM loads to QAD-ERP to report in line production, downtimes, scrap, shippers control and the inventory management that eliminated 90% of manual and repetitive processes. Collaborated with cross-functional teams to align solutions with business and user needs. Additionally, I have been responsible for mentoring junior developers and leading the software development team in the absence of a software manager.",
       "highlights": [
         "Employee of the month (2026)",
         "Led leadership development initiatives",
@@ -47,7 +49,9 @@
       ]
     },
     {
-      "name": "Rassini Frenos, Puebla, MX",
+      "name": "Rassini Frenos",
+      "location": "",
+      "jobType": "On-site (Puebla, MX)",
       "position": "Junior Software Engineer",
       "url": "https://www.rassini.com/",
       "startDate": "2022-10-04",
@@ -59,7 +63,9 @@
       ]
     },
     {
-      "name": "Audi México, San José Chiapa, MX",
+      "name": "Audi México",
+      "location": "",
+      "jobType": "On-site (San José Chiapa, MX)",
       "position": "Software Developer Intern",
       "url": "https://www.audi.com.mx/",
       "startDate": "2022-04-01",
@@ -85,8 +91,14 @@
   }],
   "certificates": [
     {
+      "name": "Intensive English Program Course - Houston, Texas",
+      "date": "2025-10-12",
+      "issuer": "International English School",
+      "url": "https://www.ies-houston.com/"
+    },
+    {
       "name": "Advanced React",
-      "date": "2025-11-07",
+      "date": "2024-11-07",
       "issuer": "Meta",
       "url": "https://www.coursera.org/account/accomplishments/verify/VY32S3VTNJT6"
     }
